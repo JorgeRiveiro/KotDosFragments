@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import org.jetbrains.anko.support.v4.toast
 import kotlinx.android.synthetic.main.fragment_main.*
+import android.content.Intent
 
 
 /**
@@ -45,6 +46,11 @@ class MainFragment : Fragment() {
             toast("Mensaje: ${main_editText.text}")
             // mostramos en el TextView lo que introducimos en el EditText
             main_textview.text = main_editText.text
+            // Utilizamos 'activity' para indicar el context,
+            // como es un fragment el context es la activity que lo contiene
+            val datos = Intent(activity,Main2Activity::class.java)
+            datos.putExtra("key1","valor1")
+            startActivity(datos)
         }
     }
 
