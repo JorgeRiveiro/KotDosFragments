@@ -8,7 +8,7 @@
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/fragmentA"
+        android:id="@+id/fragmentB"
         android:name="com.example.jorge.kotdosfragments.SecondFragment"
         android:layout_width="match_parent"
         android:layout_height="317dp"

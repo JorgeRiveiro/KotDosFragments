@@ -10,7 +10,7 @@
         android:id="@+id/fragmentA"
         android:name="com.example.jorge.kotdosfragments.MainFragment"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_height="329dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_main" />
 
